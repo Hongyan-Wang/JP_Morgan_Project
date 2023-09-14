@@ -26,3 +26,6 @@ Estimate purchase price at any date in the past and extrapolate for one year int
 **Model input:** date
 
 **Model output:** estimated price
+
+**Model Used in this File** Prophet 
+
