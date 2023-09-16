@@ -26,3 +26,12 @@ Write a function that takes these inputs and gives back the value of the contrac
 **Model output:** estimated price model
 
 **Model Used in this File** 
+
+
+Price_sell/ _buy = Price * Volume
+Price_contract = Price_sell - Price_buy - cost
+cost = Gas_Inj_Withdraw + Storage + Transport
+Transport = Transport_per_time *2
+Storage = Storage_rate * Storage_time
+Storage_time = Withdraw_date - In_date
+
