@@ -1,1 +1,28 @@
+# JP Morgen Project
 
+## Task 2 - Create a prototype pricing model
+
+
+They believe the winter will be colder than expected, so they want to buy gas now to store and sell in winter in order to take advantage of the resulting increase in gas prices. 
+The concept is simple: any trade agreement is as valuable as the price you can sell minus the price at which you are able to buy. 
+
+**Aim:** Write a function that is able to use the data you created previously to price the contract.
+**Objectives: **
+
+The prices at which the commodity can be purchased/sold on those dates.
+The rate at which the gas can be injected/withdrawn.
+The maximum volume that can be stored.
+Storage costs.
+Write a function that takes these inputs and gives back the value of the contract. You can assume there is no transport delay and that interest rates are zero. Market holidays, weekends, and bank holidays need not be accounted for. Test your code by selecting a few sample inputs.
+ 
+**Model input:** 
+>  1.   Injection dates.
+>  2.   Withdrawal dates.
+>  3.   The prices at which the commodity can be purchased/sold on those dates.
+>  4.   The rate at which the gas can be injected/withdrawn.
+>  5.   The maximum volume that can be stored.
+>  6.   Storage costs.
+
+**Model output:** estimated price model
+
+**Model Used in this File** 
