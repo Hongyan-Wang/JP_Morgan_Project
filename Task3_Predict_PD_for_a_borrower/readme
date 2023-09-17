@@ -1,14 +1,14 @@
 # Task 3 - Predict the PD (Probability of default) for a borrower
 
-**Aim** 
-Use the provided data to train a function that will estimate the probability of default for a borrower. 
+**Aim**
+Use the provided data to train a function that will estimate the probability of default for a borrower.
 
-**Objectives** 
+**Objectives**
 1. Produce a function that can take in the properties of a loan and output the  expected loss.
-2. Explore some technique including 
-> * Simple regression
-> * Decision tree
-> * Machine learning ?
+2. Explore some technique including
+> * Simple regression: -- Accuracy of the Logistic Regression model is:  0.99; Accuracy of Logisitic Regression model after replace variable is: 0.9979 
+> * XGBoost: -- Accuracy of the XGBoost is 0.9998
+> * Random forest: -- Accuracy of the Random Forest model is 0.9997
 
 
 3. Use multiple methods and provide a comparative analysis.
@@ -16,7 +16,8 @@ Use the provided data to train a function that will estimate the probability of 
 **Raw data info:**
 - borrower
 - income
-- total loans outstanding 
+- total loans outstanding
 - Previsouly defaulted on a loan
 - Assuming a recovery rate of 10%, this can be used to give the expected loss on a loan.
+
 
