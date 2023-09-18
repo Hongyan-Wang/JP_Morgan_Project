@@ -76,3 +76,26 @@ Use the provided data to train a function that will estimate the probability of 
 - Previsouly defaulted on a loan
 - Assuming a recovery rate of 10%, this can be used to give the expected loss on a loan.
 
+## Task 4: Bucket FICO scores
+
+Charlie wants to build a **machine learning model** that will predict the probability of default, but while you are discussing the methodology, she mentions that the architecture she is using requires `*categorical data*`. As FICO ratings can take integer values in a large range, they will need to be mapped into `*buckets*`.
+
+**Defination**
+
+> FICO (Fair Isaac Corportation)
+
+> Founders: Bill Fair/ Earl Isaac
+
+A FICO score is a standardized credit score created by the Fair Isaac Corporation (FICO) that quantifies the creditworthiness of a borrower to a value between 300 to 850, based on various factors.
+
+FICO scores are used in 90% of mortgage application decisions in the United States.
+
+**Task**
+
+The risk manager provides you with FICO scores for the borrowers in the bank’s portfolio and wants you to **construct a technique for predicting the PD (probability of default)** for the borrowers using these scores.
+
+- **Aim**
+> - Create a rating map that maps the FICO score of the borrowers to a rating where a lower rating signifies a better credit score.
+> - You could consider many ways of solving the problem by optimizing different properties of the resulting buckets, such as the mean squared error or log-likelihood
+
+* The process of doing this is known as quantization.
