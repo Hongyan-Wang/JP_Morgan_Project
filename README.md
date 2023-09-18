@@ -105,4 +105,14 @@ The risk manager provides you with FICO scores for the borrowers in the bank’s
 > - Create a rating map that maps the FICO score of the borrowers to a rating where a lower rating signifies a better credit score.
 > - You could consider many ways of solving the problem by optimizing different properties of the resulting buckets, such as the mean squared error or log-likelihood
 
-* The process of doing this is known as quantization.
+- **The process of doing this is known as quantization**
+Result:
+
+log likelyhood: -4217.8245
+results: [850, 753, 752, 732, 696, 649, 611, 580, 552, 520, 300]
+
+- **Method 2: Using genetic algorithm to optimise**
+
+Result:
+log likelyhood: -4243.0575
+results: [850, 765, 729, 715, 696, 637, 608, 552, 541, 510, 300]
