@@ -23,6 +23,13 @@ Data available for next 18mo + historical
 **Task:** EDA historical data and an extrapolation for an extra year.
 Estimate purchase price at any date in the past and extrapolate for one year into the future.
 
+**Conclusions**
+Using Prophet function, the Mean Squred Errors is 0.218;
+
+Mean Absolute Error is 0.376
+
+Prophet can give a relative good prediction of this historical data
+
 
 ## Task 2 - Create a prototype pricing model
 
