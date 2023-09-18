@@ -23,12 +23,12 @@ Data available for next 18mo + historical
 **Task:** EDA historical data and an extrapolation for an extra year.
 Estimate purchase price at any date in the past and extrapolate for one year into the future.
 
-**Conclusions**
-Using Prophet function, the Mean Squred Errors is 0.218;
+### **Conclusions**
+> - Using Prophet function, the Mean Squred Errors is 0.218;
 
-Mean Absolute Error is 0.376
+> - Mean Absolute Error is 0.376
 
-Prophet can give a relative good prediction of this historical data
+> -Prophet can give a relative good prediction of this historical data
 
 
 ## Task 2 - Create a prototype pricing model
@@ -83,6 +83,11 @@ Use the provided data to train a function that will estimate the probability of 
 - Previsouly defaulted on a loan
 - Assuming a recovery rate of 10%, this can be used to give the expected loss on a loan.
 
+### **Conclusions**
+> * Simple regression: -- Accuracy of the Logistic Regression model is:  0.99; Accuracy of Logisitic Regression model after replace variable is: 0.9979 
+> * XGBoost: -- Accuracy of the XGBoost is 0.9998
+> * Random forest: -- Accuracy of the Random Forest model is 0.9997
+
 ## Task 4: Bucket FICO scores
 
 Charlie wants to build a **machine learning model** that will predict the probability of default, but while you are discussing the methodology, she mentions that the architecture she is using requires `*categorical data*`. As FICO ratings can take integer values in a large range, they will need to be mapped into `*buckets*`.
@@ -105,14 +110,13 @@ The risk manager provides you with FICO scores for the borrowers in the bank’s
 > - Create a rating map that maps the FICO score of the borrowers to a rating where a lower rating signifies a better credit score.
 > - You could consider many ways of solving the problem by optimizing different properties of the resulting buckets, such as the mean squared error or log-likelihood
 
-- **The process of doing this is known as quantization**
+### **Conclusions**
+- **Method 1: Using Dynamic Programming**
 Result:
-
 log likelyhood: -4217.8245
 results: [850, 753, 752, 732, 696, 649, 611, 580, 552, 520, 300]
 
 - **Method 2: Using genetic algorithm to optimise**
-
 Result:
 log likelyhood: -4243.0575
 results: [850, 765, 729, 715, 696, 637, 608, 552, 541, 510, 300]
