@@ -1,12 +1,14 @@
 # JP_Morgan_Project
 ## Task 1 - Investigate and analyze price data
 
+**AIM:**
 
+pricing the natural gas storage contract
+**Objectives:**
 
-* AIM: pricing the natural gas storage contract
-* OBJ1: extrapolate external data to increase granularity (Data preparation)
-* OBJ2: analyse seasonality & annual trends 
-* OBJ3: price the contract using historical data to make future gas price prediction
+>OBJ1: extrapolate external data to increase granularity (Data preparation)
+>OBJ2: analyse seasonality & annual trends 
+>OBJ3: price the contract using historical data to make future gas price prediction
 
 
 **Background info:**
@@ -24,23 +26,18 @@ Data available for next 18mo + historical
 Estimate purchase price at any date in the past and extrapolate for one year into the future.
 
 ### **Conclusions**
-> - Using Prophet function, the Mean Squred Errors is 0.218;
-
+> Using Prophet function, the Mean Squred Errors is 0.218;
 > - Mean Absolute Error is 0.376
-
 > -Prophet can give a relative good prediction of this historical data
 
 
 ## Task 2 - Create a prototype pricing model
 
+**Aim:** 
 
-They believe the winter will be colder than expected, so they want to buy gas now to store and sell in winter in order to take advantage of the resulting increase in gas prices.
-The concept is simple: any trade agreement is as valuable as the price you can sell minus the price at which you are able to buy.
+Write a function that is able to use the data you created previously to price the contract. 
 
-
-**Aim:** Write a function that is able to use the data you created previously to price the contract.
-
-Write a function that takes these inputs and gives back the value of the contract. You can assume there is no transport delay and that interest rates are zero. Market holidays, weekends, and bank holidays need not be accounted for. Test your code by selecting a few sample inputs.
+You can assume there is no transport delay and that interest rates are zero. Market holidays, weekends, and bank holidays need not be accounted for. Test your code by selecting a few sample inputs.
 
 **Model input:**
 >  1.   Injection dates.
@@ -52,12 +49,12 @@ Write a function that takes these inputs and gives back the value of the contrac
 
 **Model output:** estimated price model
 
-- Price_sell/ _buy = Price * Volume
-- Price_contract = Price_sell - Price_buy - cost
-- cost = Gas_Inj_Withdraw + Storage + Transport
-- Transport = Transport_per_time *2
-- Storage = Storage_rate * Storage_time
-- Storage_time = Withdraw_date - In_date
+> - Price_sell/ _buy = Price * Volume
+> - Price_contract = Price_sell - Price_buy - cost
+> - cost = Gas_Inj_Withdraw + Storage + Transport
+> - Transport = Transport_per_time *2
+> - Storage = Storage_rate * Storage_time
+> - Storage_time = Withdraw_date - In_date
 
   
 
@@ -74,14 +71,12 @@ Use the provided data to train a function that will estimate the probability of 
 > * Random forest: -- Accuracy of the Random Forest model is 0.9997
 
 
-3. Use multiple methods and provide a comparative analysis.
-
 **Raw data info:**
-- borrower
-- income
-- total loans outstanding
-- Previsouly defaulted on a loan
-- Assuming a recovery rate of 10%, this can be used to give the expected loss on a loan.
+> - borrower
+> - income
+> - total loans outstanding
+> - Previsouly defaulted on a loan
+> - Assuming a recovery rate of 10%, this can be used to give the expected loss on a loan.
 
 ### **Conclusions**
 > * Simple regression: -- Accuracy of the Logistic Regression model is:  0.99; Accuracy of Logisitic Regression model after replace variable is: 0.9979 
@@ -112,11 +107,11 @@ The risk manager provides you with FICO scores for the borrowers in the bank’s
 
 ### **Conclusions**
 - **Method 1: Using Dynamic Programming**
-Result:
-log likelyhood: -4217.8245
-results: [850, 753, 752, 732, 696, 649, 611, 580, 552, 520, 300]
+
+> * log likelyhood: -4217.8245
+> * results: [850, 753, 752, 732, 696, 649, 611, 580, 552, 520, 300]
 
 - **Method 2: Using genetic algorithm to optimise**
-Result:
-log likelyhood: -4243.0575
-results: [850, 765, 729, 715, 696, 637, 608, 552, 541, 510, 300]
+  
+> * log likelyhood: -4243.0575
+> * results: [850, 765, 729, 715, 696, 637, 608, 552, 541, 510, 300]
