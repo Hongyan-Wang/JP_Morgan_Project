@@ -1,4 +1,14 @@
 # JP_Morgan_Project
+Quantitative Research (QR) is an expert quantitative modeling group at JPMorgan Chase, as well as a leader in financial engineering, data analytics, and portfolio management. 
+
+## Reflections 
+-	Conducted comprehensive time series data analysis using Pandas to scrutinise historical natural gas prices. Successfully employed the Prophet model, achieving an RMSE less than 0.22 to project future prices.
+-	Developed a prototype for natural gas storage contract pricing model in Python. This model leveraged Prophet’s forecast to automate contract quotations based on specified injection and withdrawal dates.
+-	Examined loans data to assess the probability of customer default. Implemented and compared the performance of Logistic Regression, Random Forest, and XGBoost models. Notably, the XGBoost model outperformed others with an impressive accuracy score of 99.99%.
+-	Devised methods to categorise FICO scores into buckets for enhanced defaults prediction. Utilised dynamic programming and a Genetic Algorithm, optimising for maximum log-likelihood, to transform these scores into categorical data.
+
+
+
 ## Task 1 - Investigate and analyze price data
 
 **AIM:**
