@@ -15,9 +15,9 @@ Quantitative Research (QR) is an expert quantitative modeling group at JPMorgan 
 1. What else features can be used for improve the machine learning accuracy on the classification task
 2. What is the basic difference between each machine learning models, and how to choose?
 3. A dynamic programming question :
-   1) https://github.com/Hongyan-Wang/DailyPythonPractice/blob/main/121-Best%20Time%20to%20Buy%20and%20Sell%20Stock.py
-   2) https://github.com/Hongyan-Wang/DailyPythonPractice/blob/main/122-Best%20Time%20to%20Buy%20and%20Sell%20Stock_2.py
-   3) https://github.com/Hongyan-Wang/DailyPythonPractice/blob/main/123-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.py
+   1) [Best Time to Buy and Sell Stock I](https://github.com/Hongyan-Wang/DailyPythonPractice/blob/main/121-Best%20Time%20to%20Buy%20and%20Sell%20Stock.py) 
+   2) [Best Time to Buy and Sell Stock II](https://github.com/Hongyan-Wang/DailyPythonPractice/blob/main/122-Best%20Time%20to%20Buy%20and%20Sell%20Stock_2.py)
+   3) [Best Time to Buy and Sell Stock III](https://github.com/Hongyan-Wang/DailyPythonPractice/blob/main/123-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.py) 
 5. Why would this model give such a good prediction, what would you do if the data is not as ideal? 
 
 
