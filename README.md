@@ -1,12 +1,24 @@
 # JP_Morgan_Project
 Quantitative Research (QR) is an expert quantitative modeling group at JPMorgan Chase, as well as a leader in financial engineering, data analytics, and portfolio management. 
 
-## Reflections 
+
+<img width="931" alt="image" src="https://github.com/user-attachments/assets/2380a519-24bc-45b3-ad90-2f9e3aa6246d">
+
+
+## Summaries 
 -	Conducted comprehensive time series data analysis using Pandas to scrutinise historical natural gas prices. Successfully employed the Prophet model, achieving an RMSE less than 0.22 to project future prices.
 -	Developed a prototype for natural gas storage contract pricing model in Python. This model leveraged Prophet’s forecast to automate contract quotations based on specified injection and withdrawal dates.
 -	Examined loans data to assess the probability of customer default. Implemented and compared the performance of Logistic Regression, Random Forest, and XGBoost models. Notably, the XGBoost model outperformed others with an impressive accuracy score of 99.99%.
 -	Devised methods to categorise FICO scores into buckets for enhanced defaults prediction. Utilised dynamic programming and a Genetic Algorithm, optimising for maximum log-likelihood, to transform these scores into categorical data.
 
+## Reflections:
+1. What else features can be used for improve the machine learning accuracy on the classification task
+2. What is the basic difference between each machine learning models, and how to choose?
+3. A dynamic programming question :
+   1) https://github.com/Hongyan-Wang/DailyPythonPractice/blob/main/121-Best%20Time%20to%20Buy%20and%20Sell%20Stock.py
+   2) https://github.com/Hongyan-Wang/DailyPythonPractice/blob/main/122-Best%20Time%20to%20Buy%20and%20Sell%20Stock_2.py
+   3) https://github.com/Hongyan-Wang/DailyPythonPractice/blob/main/123-Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.py
+5. Why would this model give such a good prediction, what would you do if the data is not as ideal? 
 
 
 ## Task 1 - Investigate and analyze price data
